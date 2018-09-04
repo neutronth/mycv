@@ -145,6 +145,34 @@ $('document').ready(function() {
     textSize: 54,
     textColor: '#1a1a1a',
   });
+
+  $('#diagram-id-4').diagram({
+    size: '190',
+    borderWidth: '10',
+    bgFill: '#95a5a6',
+    frFill: '#990098',
+    textSize: 54,
+    textColor: '#1a1a1a',
+  });
+
+  $('#diagram-id-5').diagram({
+    size: '190',
+    borderWidth: '10',
+    bgFill: '#95a5a6',
+    frFill: '#116638',
+    textSize: 54,
+    textColor: '#1a1a1a',
+  });
+
+  $('#diagram-id-6').diagram({
+    size: '190',
+    borderWidth: '10',
+    bgFill: '#95a5a6',
+    frFill: '#ad6638',
+    textSize: 54,
+    textColor: '#1a1a1a',
+  });
+
   $(window).load(function() {
     $('#filter .current').trigger('click');
   });
